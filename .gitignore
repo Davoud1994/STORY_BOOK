@@ -7,7 +7,7 @@
 /dataSources/
 /dataSources.local.xml
 /sqlDataSources.xml
-# auto-import
-# modules.xml
+#auto-import
+/ modules.xml
 # PHPUnit
 /phpunit.xml
