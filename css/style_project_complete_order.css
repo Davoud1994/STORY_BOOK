@@ -1,0 +1,15 @@
+.end_part{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: Yekan, sans-serif;
+    background-color: #E9E9E9;
+    margin-top: 250px;
+
+
+}
+
+.comp{
+    color: #32BBCB;
+    font-size: 50px;
+}

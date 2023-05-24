@@ -1,0 +1,131 @@
+.title1{
+    font-family: yekan,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.part_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #E9E9E9 ;
+    font-family: yekan,sans-serif;
+    border-radius: 25px;
+    padding:0 50px;
+    margin: auto;
+
+
+}
+
+.text_1,.text_name{
+    font-size: 30px;
+    margin: 20px 30px;
+}
+
+.Enter_1{
+    width: 600px;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+    border-bottom : solid;
+    border-bottom-color: #32BBCB;
+    background-color: #E9E9E9;
+    outline:none;
+    height:35px;
+    font-size: 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 50px;
+    color: #3f3f3f;
+
+
+}
+
+.Enter_1:hover{
+        border-width: 5px;
+}
+
+.line_1{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #32BBCB;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.counter{
+    background-color: #32BBCB;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gray;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    margin:40px 10px;
+    outline: none;
+    font-family: 'Lobster', cursive;
+}
+
+.button_form1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.submit{
+    font-family: yekan,sans-serif;
+    font-size: 20px;
+    padding:2px 30px;
+    border-style: double ;
+    border-color: white;
+    border-width: 35px;
+    border-radius: 15px;
+    background-color: #32BBCB ;
+    cursor:pointer;
+    margin: 10px;
+    font-weight:bold ;
+}
+
+.container_counter{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    margin-top: 2px;
+}
+
+.errors_1{
+    font-family: Yekan, sans-serif;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+
+}
+
+.errors_2{
+    margin: 0;
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.show_result1,.show_result2{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+    color: gray;
+    font-family: Yekan, sans-serif;
+}
+

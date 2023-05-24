@@ -1,0 +1,30 @@
+.pop_up{
+    display: flex;
+    flex-direction: column;
+    font-family: Yekan, sans-serif;
+    align-items: center;
+    margin:200px ;
+    font-size: 30px;
+    color: #32BBCB;
+    background-color:#E9E9E9;
+    border-radius: 10px;
+}
+
+div{
+    margin:10px;
+}
+
+.button_back{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.link_back{
+    text-decoration: none;
+    font-family: Yekan, sans-serif;
+    font-size: 20px;
+    color: #32BBCB;
+}
