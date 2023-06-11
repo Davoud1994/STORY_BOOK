@@ -32,7 +32,7 @@ $name=$_SESSION['name']??" ";
     </div>
 
     <div class="link1">
-        <div dir=rtl class="return_name">خوش امدید<?php echo htmlspecialchars($name)?></div>
+        <div dir=rtl class="return_name">خوش امدید&nbsp;&nbsp;<?php echo htmlspecialchars($name)?></div>
         <a class="link_name" href="index.php">کتاب کوروش</a>
 
 
