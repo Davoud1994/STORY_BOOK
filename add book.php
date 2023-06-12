@@ -105,7 +105,7 @@ if (isset($_POST['submit'])) {
 <section class="part_1">
     <p dir="rtl" class="title1">لطفا مشخصات کتاب مورد نظر خود را وارد کنید:</p>
     <div class="errors_1"><?php echo $errors["submit"];?></div>
-    <form class="add" action="<?php echo $_SERVER["PHP_SELF"];?>" method="POST">
+    <form class="add" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
         <div class="container_add">
             <div dir=rtl class="text_name">
                 نام و نام خانوادگی خود را وارد کنید:
